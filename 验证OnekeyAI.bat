@@ -1,0 +1,3 @@
+%windir%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'C:\ProgramData\Anaconda3\shell\condabin\conda-hook.ps1' ; conda activate '%ONEKEY_HOME%\onekey_envs'; python -c 'import onekey_algo; onekey_algo.hello_onekey();'"
+
+pause
